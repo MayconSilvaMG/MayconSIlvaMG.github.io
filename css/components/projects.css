@@ -20,7 +20,7 @@
 }
 
 .projects .projects__content ul li .image-container {
-  background-color: var(--white);
+  background-color: var(225, 227, 230, 0.747);
   padding: 2rem;  
   width: 150px;
   height: 150px;
