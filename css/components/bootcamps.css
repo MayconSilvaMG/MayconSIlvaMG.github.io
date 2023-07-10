@@ -1,29 +1,29 @@
-.skills {
+.bootcamps {
   background-color: rgba(225, 227, 230, 0.747);
   scroll-margin-top: 15rem;
 }
 
-.skills .skills__content {
+.bootcamps .bootcamps__content {
   padding: 6rem 4rem;
   text-align: center;
 }
 
-.skills .skills__content .description {
+.bootcampss .bootcamps__content .description {
   max-width: 56rem;
   margin: 0 auto 6rem;
 }
 
-.skills .skills__content ul {
+.bootcamps .bootcamps__content ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 2rem;
 }
 
-.skills .skills__content ul li .image-container {
-  background-color: var(225, 227, 230, 0.747);
-  padding: 2rem;
-  width: 100px;
-  height: 100px;
+.bootcamps .bootcamps__content ul li .image-container {
+  background-color: var(--white);
+  padding: 2rem;  
+  width: 150px;
+  height: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -31,7 +31,7 @@
   margin: 0 auto;
 }
 
-.skills .skills__content ul li h3 {
+.bootcamps .bootcamps__content ul li h3 {
   font-size: 1.6rem;
   font-weight: 500;
   margin: 2rem 0 1rem;

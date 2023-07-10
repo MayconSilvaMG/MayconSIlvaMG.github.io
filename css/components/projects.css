@@ -1,60 +1,38 @@
 .projects {
-  margin-bottom: 16rem;
+  background-color: rgba(225, 227, 230, 0.747);
   scroll-margin-top: 15rem;
 }
 
 .projects .projects__content {
-  max-width: 56rem;
+  padding: 6rem 4rem;
   text-align: center;
+}
+
+.projects .projects__content .description {
+  max-width: 56rem;
   margin: 0 auto 6rem;
 }
 
-.projects ul li {
+.projects .projects__content ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+
+.projects .projects__content ul li .image-container {
+  background-color: var(--white);
+  padding: 2rem;  
+  width: 150px;
+  height: 150px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  gap: 4rem;
+  box-shadow: 0 0.4rem 1rem rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
 }
 
-.projects ul li.projects__reversed-list {
-  flex-direction: row-reverse;
-}
-
-.projects ul li:not(:last-of-type) {
-  margin-bottom: 12rem;
-}
-
-.projects ul li .image img {
-  width: 100%;
-  min-width: 40rem;
-  max-width: 47rem;
-  height: auto;
-}
-
-.projects ul li .projects__info {
-  max-width: 47rem;
-}
-
-.projects ul li .projects__info p {
-  margin: 1rem 0 4rem;
-}
-
-.projects ul li .projects__info a {
+.projects .projects__content ul li h3 {
+  font-size: 1.6rem;
   font-weight: 500;
-  text-decoration: underline;
-}
-
-@media only screen and (max-width: 768px) {
-  .projects ul li,
-  .projects ul li.projects__reversed-list {
-    flex-direction: column;
-  }
-
-  .projects ul li .projects__info {
-    max-width: 66rem;
-  }
-
-  .projects ul li .image img {
-    min-width: auto;
-  }
+  margin: 2rem 0 1rem;
 }

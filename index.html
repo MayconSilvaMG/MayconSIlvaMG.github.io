@@ -1,256 +1,540 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <!-- Meta tags -->
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- title -->
-    <title>Maycon Silva Portfólio</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/extends.css" />
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- navbar -->
-    <nav class="navbar">
-      <div class="navbar__content max-width mb-0">
-          <title>Maycon Silva Portfólio</title>
-        <ul class="navbar__links">
+
+<head>
+  <!-- Meta tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+  <!-- title -->
+  <title>Maycon Silva Portfólio</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/extends.css" />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+  <!--<meta name="color-scheme" content="light">-->
+</head>
+<!--<select id="theme">
+  <option value="light">Light</option> 
+  <option value="dark">Dark</option> 
+</select>-->
+<body>
+  <!-- navbar -->
+  <nav class="navbar">
+    <div class="navbar__content max-width mb-0">
+      <title>Maycon Silva Portfólio</title>
+      <ul class="navbar__links">
+        <li><a href="#header" style="color: rgb(255, 255, 255);">Início</a></li>
+        <li><a href="#about" style="color: rgb(255, 255, 255);">Sobre</a></li>
+        <li><a href="#skills" style="color: rgb(255, 255, 255);">Habilidades</a></li>
+        <li><a href="#projects" style="color: rgb(255, 255, 255);">Projetos</a></li>
+        <li><a href="#bootcamps" style="color: rgb(255, 255, 255);">Bootcamp</a></li>
+        <li><a href="#course" style="color: rgb(255, 255, 255);">Cursos</a></li>
+        <li><a href="#footer" style="color: rgb(255, 255, 255);">Contato</a></li>        
+      </ul>     
+      <div class="navbar__mobile">
+        <img src="assets/menu.svg" alt="menu" class="burguer" />
+        <ul class="mobile__links">
           <li><a href="#header" style="color: rgb(255, 255, 255);">Início</a></li>
           <li><a href="#about" style="color: rgb(255, 255, 255);">Sobre</a></li>
           <li><a href="#skills" style="color: rgb(255, 255, 255);">Habilidades</a></li>
-          <li><a href="#course" style="color: rgb(255, 255, 255);">Cursos</a></li>
           <li><a href="#projects" style="color: rgb(255, 255, 255);">Projetos</a></li>
+          <li><a href="#bootcamps" style="color: rgb(255, 255, 255);">Bootcamp</a></li>
+          <li><a href="#course" style="color: rgb(255, 255, 255);">Cursos</a></li>
           <li><a href="#footer" style="color: rgb(255, 255, 255);">Contato</a></li>
         </ul>
-        <div class="navbar__mobile">
-          <img src="assets/menu.svg" alt="menu" class="burguer" />
-          <ul class="mobile__links">
-            <li><a href="#header" style="color: rgb(255, 255, 255);">Início</a></li>
-            <li><a href="#about" style="color: rgb(255, 255, 255);">Sobre</a></li>
-            <li><a href="#skills" style="color: rgb(255, 255, 255);">Habilidades</a></li>
-            <li><a href="#course" style="color: rgb(255, 255, 255);">Cursos</a></li>
-            <li><a href="#projects" style="color: rgb(255, 255, 255);">Projetos</a></li>
-            <li><a href="#footer" style="color: rgb(255, 255, 255);">Contato</a></li>
-          </ul>
-        </div>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <!-- header -->
-    <header id="header" class="max-width">
-      <div class="header__left">
-        <h1>Olá! Sou Maycon Silva Desenvolvedor Fullstack</h1>
-        <p>
-          Bem-vindo ao meu portfólio. Sou um desenvolvedor capacitado
-          com experiência abrangente em Angular, .NET, SQL Server, MongoDB, versionamento de código com GIT, 
-          consumo de API's e metodologias ágeis como Kanban e Scrum. 
-          Minha paixão por tecnologia me impulsiona a estar sempre atualizado, 
-          buscando conhecimento nas últimas tendências do mercado. Com um foco constante na entrega de soluções de qualidade,
-          estou comprometido em criar aplicativos eficientes e escaláveis que atendam às necessidades dos meus clientes. 
-          Explore meu portfólio e veja como posso ajudar a impulsionar seus projetos com expertise e inovação. 
-        </p>
-        <a href="#about" class="btn btn-primary">Saiba Mais!</a>
+  <!-- header -->
+  <header id="header" class="max-width">
+    <div class="header__left">
+      <h1>Olá! Sou Maycon Silva Desenvolvedor Fullstack</h1>
+      <p>
+        Bem-vindo ao meu portfólio. Sou um desenvolvedor capacitado
+        com experiência abrangente em Angular, .NET, SQL Server, MongoDB, versionamento de código com GIT,
+        consumo de API's e metodologias ágeis como Kanban e Scrum.
+        Minha paixão por tecnologia me impulsiona a estar sempre atualizado,
+        buscando conhecimento nas últimas tendências do mercado. Com um foco constante na entrega de soluções de
+        qualidade,
+        estou comprometido em criar aplicativos eficientes e escaláveis que atendam às necessidades dos meus clientes.
+        Explore meu portfólio e veja como posso ajudar a impulsionar seus projetos com expertise e inovação.
+      </p>
+      <a href="#about" class="btn btn-primary">Saiba Mais!</a>
+    </div>
+    <div class="header__right">
+      <div class="header__image">
+        <img src="assets/85070741.jpg" alt="Maycon Silva" class="Maycon" />
+        <img src="assets/abstract.svg" alt="background" class="background" />
       </div>
-      <div class="header__right">
-        <div class="header__image">
-          <img src="assets/85070741.jpg" alt="Maycon Silva" class="Maycon" />
-          <img src="assets/abstract.svg" alt="background" class="background" />
-        </div>
-      </div>
-    </header>
+    </div>
+  </header>
 
-    <!-- Sobre -->
-    <section id="about" class="about max-width">
-      <div class="about__left">
-        <h2 class="secondary-title">Além do código: quem sou eu?</h2>
-        <p>
-          Que tal se conectar comigo nas redes sociais abaixo e saber mais sobre
-          meu trabalho?
-        </p>
-        <ul>
-          <li>
-            <a href="https://www.instagram.com/maycao.m/" target="_blank"><img src="assets/instagram.svg" alt="Instagram" /></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/maycon-daniel-da-silva-4a1421213/" target="_blank"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
-          </li>
-          <li>
-            <a href="https://api.whatsapp.com/send?phone=5535991855332" target="_blank"><img src="assets/WhatsApp.png" alt="WhatsApp" /></a>
-          </li>
-        </ul>
-      </div>
-      <div class="about__right">
-        <h3 class="tertiary-title mb-m">
-          Desenvolvedor fullstack apaixonado por tecnologia e soluções criativas
-        </h3>
-        <p>
-          Olá, eu sou Maycon Silva, um desenvolvedor que à 1 ano atrás era Back-End
-          e à 7 meses atuo diretamente com o desenvolvimento fullstack, sou apaixonado por
-          tecnologia e soluções criativas. Com mais de 3 anos de experiência em
-          desenvolvimento, tenho trabalhado com diversas tecnologias e
-          plataformas para criar soluções robustas e escaláveis que atendam às
-          necessidades dos clientes.
-        </p>
-        <p>
-          Eu amo o desafio de encontrar soluções inovadoras e criativas para
-          problemas complexos e estou sempre buscando aprender e crescer como
-          profissional.
-        </p>
-      </div>
-    </section>
-
-    <!-- habilidades -->
-    <section id="skills" class="skills">
-      <div class="skills__content max-width">
-        <h2 class="tertiary-title">Minha caixinha de ferramentas</h2>
-        <p class="description">
-          Descubra as habilidades e ferramentas que domino e que me permitem
-          criar soluções criativas e funcionais para meus clientes.
-        </p>
-        <ul>
-          <li class="skills__item">
-            <div class="image-container">
-              <img src="assets/notebook.png" alt="Desenvolvimento Web" />
-            </div>
-            <h3>Desenvolvimento Web</h3>
-            <p>
-              Experiência em desenvolvimento fullstack com foco em tecnologias
-              modernas.
-            </p>
-          </li>
-          <li class="skills__item">
-            <div class="image-container">
-              <img src="assets/bd.png" alt="Web Design" />
-            </div>
-            <h3>Banco de dados</h3>
-            <p>
-              Experiência com criação de consultas, trabalhar com análise de dados,
-              implementar códigos com bancos relacionais e não relacionais.
-            </p>
-          </li>
-          <li class="skills__item">
-            <div class="image-container">
-              <img src="assets/net.png" alt="UX/UI Design" />
-            </div>
-            <h3>Desenvolvedor .NET</h3>
-            <p>
-              Experiência no desenvolvimento utilizando do .NET
-              junto com o Angular para modelagem das telas.
-            </p>
-          </li>
-          <li class="skills__item">
-            <div class="image-container">
-              <img src="assets/git.png" alt="Gerenciamentos de versões" />
-            </div>
-            <h3>Versionamento de código</h3>
-            <p>
-              Experiência com a ferramenta, 2 anos trabalhando diretamente
-              com o versionamento de código com Git.
-            </p>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Cursos -->
-    <section id="course" class="course max-width">
-      <div class="course__content">
-        <h2 class="secondary-title">Cursos em Destaque</h2>
-        <p>
-          Dos meus cursos, aqui estão alguns dos
-          meus trabalhos mais recentes
-        </p>
-      </div>
+  <!-- Sobre -->
+  <section id="about" class="about max-width">
+    <div class="about__left">
+      <h2 class="secondary-title">Além do código: quem sou eu?</h2>
+      <p>
+        Que tal se conectar comigo nas redes sociais abaixo e saber mais sobre
+        meu trabalho?
+      </p>
       <ul>
-        <!-- Curso Seja Full-Stack com .NET Web API e Angular + EF Core-->
         <li>
-          <div class="image">
-            <img src="assets/Seja Full-Stack com .NET Web API e Angular + EF Core.jpg" alt="Seja Full-Stack com .NET Web API e Angular + EF Core" />
-          </div>
-          <div class="course__info">
-            <h3 class="tertiary-title">
-              Curso Seja Full-Stack com .NET Web API e Angular + EF Core
-            </h3>
-            <p>
-              Neste curso, adquiri habilidades avançadas na criação de APIs RESTful com o ASP.NET Core. 
-              Aprendi a interagir corretamente com a API, utilizando os métodos HTTP adequados, 
-              códigos de status e medidas de segurança. Também adquiri conhecimentos sobre validação, 
-              recursos como paginação e filtragem, modelagem de dados, suporte a HATEOAS, versionamento, 
-              cache e simultaneidade. Agora estou pronto para criar APIs eficientes e robustas, proporcionando soluções de alta qualidade.
-            </p>
-            <a href="https://www.udemy.com/course/angular-dotnetcore-efcore/learn/lecture/25198378#overview" target="_blank" style="color:rgba(5, 64, 190, 0.747);"> Saiba mais &rarr;</a>
-          </div>
+          <a href="https://www.instagram.com/maycao.m/" target="_blank"><img src="assets/instagram.svg"
+              alt="Instagram" /></a>
         </li>
-        <!-- REST API's RESTFul do 0 à Azure com ASP.NET Core 5 e Docker-->
-        <li class="course__reversed-list">
-            <div class="image">
-              <img src="assets/REST API's RESTFul do 0 à Azure com ASP.NET Core 5 e Docker.jpg" alt="REST API's RESTFul do 0 à Azure com ASP.NET Core 5 e Docker" />
-            </div>
-            <div class="course__info">
-              <h3 class="tertiary-title">
-                REST API's RESTFul do 0 à Azure com ASP.NET Core 5 e Docker
-              </h3>
-              <p>
-                O curso abrange os fundamentos teóricos (10%) e práticos (90%) de Webservices API's REST e RESTful. 
-                Aprenderemos a implementar uma API RESTful utilizando ASP.NET Core 5 e C#,
-                começaremos com uma aplicação simples e progrediremos para cenários mais complexos. 
-                Abordaremos tópicos como HTTP, verbos/métodos, tipos de parâmetros, paginação, upload e download de arquivos, 
-                versionamento, HATEOAS, Swagger (OpenAPI) e autenticação.
-              </p>
-              <a href="https://www.udemy.com/course/restful-apis-do-0-a-nuvem-com-aspnet-core-e-docker/learn/lecture/10823738?start=0#overview" target="_blank" style="color:rgba(5, 64, 190, 0.747);">Saiba mais &rarr;</a>
-            </div>
-        </li>
-        <!-- Arquitetura de Microsserviços do 0 com ASP.NET, .NET 6 e C# -->
         <li>
-          <div class="image">
-            <img src="assets/Curso 3.jpg" alt="Arquitetura de Microsserviços do 0 com ASP.NET, .NET 6 e C#" />
-          </div>
-          <div class="course__info">
-            <h3 class="tertiary-title">
-              Arquitetura de Microsserviços do 0 com ASP.NET, .NET 6 e C#
-            </h3>
-            <p>
-              Durante o curso, tive a oportunidade de aprender os fundamentos centrais de uma arquitetura de microsserviços, 
-              tanto na teoria (20%) quanto na prática (80%). Apliquei esse conhecimento na implementação de microsserviços usando .NET 6 e C#. 
-              Iniciamos com uma rápida revisão dos fundamentos teóricos do REST e, em seguida, nos aprofundamos na construção de API's REST na plataforma .NET.
-            </p>
-            <p>
-              Durante o treinamento, tive a oportunidade de trabalhar com diversas tecnologias, incluindo ASP.NET, .NET 6, 
-              Oauth2, OpenID, JWT (JSON Web Tokens), Identity Server, RabbitMQ, API Gateway com Ocelot, Swagger OpenAPI e muito mais. 
-              Essas tecnologias foram exploradas de forma prática, permitindo uma imersão completa na implementação de uma 
-              arquitetura de microsserviços usando as ferramentas mais recentes e relevantes da plataforma .NET.
-            </p>
-            <a href="https://www.udemy.com/course/microservices-do-0-a-gcp-com-dot-net-6-kubernetes-e-docker/learn/lecture/25442776?start=0#overview" target="_blank" style="color:rgba(5, 64, 190, 0.747);">Saiba mais &rarr;</a>
+          <a href="https://www.linkedin.com/in/maycon-daniel-da-silva-4a1421213/" target="_blank"><img
+              src="assets/linkedin.svg" alt="Linkedin" /></a>
+        </li>
+        <li>
+          <a href="https://api.whatsapp.com/send?phone=5535991855332" target="_blank"><img src="assets/WhatsApp.png"
+              alt="WhatsApp" /></a>
+        </li> 
+        <li>
+          <a href="assets/Maycon Daniel da Silva.pdf" target="_blank"><img src="assets/curriculo.png"
+              alt="Curriculo" /></a>
+        </li>       
+      </ul>     
+    </div>
+    <div class="about__right">
+      <h3 class="tertiary-title mb-m">
+        Desenvolvedor fullstack apaixonado por tecnologia e soluções criativas
+      </h3>
+      <p>
+        Olá, eu sou Maycon Silva, um desenvolvedor que à 1 ano atrás era Back-End
+        e à 7 meses atuo diretamente com o desenvolvimento fullstack, sou apaixonado por
+        tecnologia e soluções criativas. Com mais de 3 anos de experiência em
+        desenvolvimento, tenho trabalhado com diversas tecnologias e
+        plataformas para criar soluções robustas e escaláveis que atendam às
+        necessidades dos clientes.
+      </p>
+      <p>
+        Eu amo o desafio de encontrar soluções inovadoras e criativas para
+        problemas complexos e estou sempre buscando aprender e crescer como
+        profissional.
+      </p>
+    </div>
+    <!--<h2>Idiomas</h2>
+    <div>
+        <div>
+            <img src="assets/flag-of-brazil.webp" alt="">
+            <div class="text">
+                <h4>Português</h4>
+                <h5>NATIVO</h5>
+            </div>
+        </div>
+        <div>
+            <img src="assets/flag-of-usa.png" alt="">
+            <div class="text">
+                <h4>Inglês</h4>
+                <h5>Escrita e conversação</h5>
+            </div>
+        </div>
+    </div>-->
+  </section>
+
+  <!-- habilidades -->
+  <section id="skills" class="skills">
+    <div class="skills__content max-width">
+      <h2 class="tertiary-title">Minha caixinha de ferramentas</h2>
+      <p>
+        Eu sempre busquei ao máximo me atualizar e ficar por dentro das novas tecnologias que estão em alta no mercado de trabalho, desde quando comecei a estudar minha primeira linguagem na escola (C++) eu sempre quis aprender sobre novas linguagens. 
+        Desde então estudei C# e Java, e logo após, quando percebi que queria atuar no mercado de trabalho como Desenvolvedor Full-Stack, então comecei a focar os meus estudos também para desenvolvimento em interface gráfica.
+      </p>
+      <p>
+      Eu possuo vasta experiência em C#, HTML, CSS, JavaScrit, TypeScript, React JS, React Native, Node JS, Python, SQL Server, dentre outras.
+      </p>
+      <p>
+       
+        </p>
+      <ul>
+        <li class="skills__item">
+          <div class="image-container">
+            <img src="assets/csharp.png" alt="CSharp" />
           </div>
         </li>
-        <!-- Jogos 2D com Unity + C# CURSO COMPLETO -->
-        <li class="course__reversed-list">
-          <div class="image">
-            <img src="assets/unity.jpg" alt="Jogos 2D com Unity + C# CURSO COMPLETO" />
+
+        <li class="skills__item">
+          <div class="image-container">
+            <img src="assets/Angular.png" alt="Angular" />
           </div>
-          <div class="course__info">
-            <h3 class="tertiary-title">
-              Jogos 2D com Unity + C# CURSO COMPLETO
-            </h3>
-            <p>
-              Neste curso, aprendi a desenvolver jogos mobile para Android, explorando especialmente os jogos 2D que utilizam efeitos físicos. 
-              Fiquei impressionado com a diversidade de jogos disponíveis na Google Play, atendendo a diferentes gostos e faixas etárias.
-            </p>
-            <p>
-              Ao longo do curso, tive a oportunidade de mergulhar no desenvolvimento de jogos passo a passo. 
-              Aprendi a manipular a Game Engine, programar jogos utilizando a linguagem C#, e utilizar todos os componentes físicos 2D disponíveis. 
-              Também adquiri habilidades na criação de sprites animadas, animações 2D dentro da Unity e até mesmo na mescla de arte 2D com 3D.
-            </p>
-            <a href="https://www.udemy.com/course/desenvolvimento-de-jogos-2d-para-android-com-unity-5/learn/lecture/12667832?start=0#overview" target="_blank" style="color:rgba(5, 64, 190, 0.747);">Saiba mais &rarr;</a>
+        </li>
+
+        <li class="skills__item">
+          <div class="image-container">
+            <img src="assets/microsoft-sql-server.png" alt="SQL" />
           </div>
+        </li>
+
+        <li class="skills__item">
+          <div class="image-container">
+            <img src="assets/git_resized.png" alt="git" />
+          </div>
+        </li>
+
+        <li class="skills__item">
+          <div class="image-container">
+            <img src="assets/net.png" alt="net" />
+          </div>
+        </li>
+
+        <li class="skills__item">
+          <div class="image-container">
+            <img src="assets/aspnet.png" alt="aspnet" />
+          </div>
+        </li>
+
+        <li class="skills__item">
+          <div class="image-container">
+            <img src="assets/html5.svg" alt="HTML" />
+          </div>
+        </li>
+
+        <li class="skills__item">
+          <div class="image-container">
+            <img src="assets/css3.svg" alt="css" />
+          </div>
+        </li>
+
+        <li class="skills__item">
+          <div class="image-container">
+            <img src="assets/javascript.svg" alt="javascript" />
+          </div>
+        </li>
+
+        <li class="skills__item">
+          <div class="image-container">
+            <img src="assets/typescript.svg" alt="typescript" />
+          </div>
+        </li>
+
+        <li class="skills__item">
+          <div class="image-container">
+            <img src="assets/node-js.svg" alt="node-js" />
+          </div>
+        </li>
+
+        <li class="skills__item">
+          <div class="image-container">
+            <img src="assets/Python.svg" alt="Python" />
+          </div>
+        </li>
+        
+        <li class="skills__item">
+          <div class="image-container">
+            <img src="assets/react.svg" alt="react" />
+          </div>
+        </li>
+
+        <li class="skills__item">
+          <div class="image-container">
+            <img src="assets/sass.svg" alt="sass" />
+          </div>
+        </li>
+
+        <li class="skills__item">
+          <div class="image-container">
+            <img src="assets/c.png" alt="c++" />
+          </div>
+        </li>
+
+        <li class="skills__item">
+          <div class="image-container">
+            <img src="assets/docker.png" alt="docker" />
+          </div>
+        </li>
+
+        <li class="skills__item">
+          <div class="image-container">
+            <img src="assets/mongo.png" alt="mongo" />
+          </div>
+        </li>
+
+        <li class="skills__item">
+          <div class="image-container">
+            <img src="assets/Postgresql.png" alt="Postgresql" />
+          </div>
+        </li>
+
+        <li class="skills__item">
+          <div class="image-container">
+            <img src="assets/PHP.png" alt="PHP" />
+          </div>
+        </li>
+
+        <li class="skills__item">
+          <div class="image-container">
+            <img src="assets/mysql.png" alt="mysql" />
+          </div>
+        </li>
+
+        <li class="skills__item">
+          <div class="image-container">
+            <img src="assets/Markdown.png" alt="Markdown" />
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+
+  <!-- projetos -->
+  <section id="projects" class="projects">
+  <div class="projects__content max-width">
+    <h2 class="tertiary-title">Projetos</h2>
+    <p class="description">
+    De ideias abstratas a projetos bem-sucedidos, aqui estão alguns dos
+    mais recentes
+    </p>
+    <ul>
+      <li class="projects__item">
+        <div class="image-container">
+          <img src="assets/gamificacao.avif" alt="gamificacao"  />
+        </div>
+        <h3>GAMIFICAÇÃO</h3>
+        <p>
+          Gamificação para apoio ao ensino: Desenvolvimento de um aplicativo usando flutter <a href="assets/Certificado gamificação.pdf"
+          target="_blank" style="color:rgba(5, 64, 190, 0.747);"> Certificado de iniciação científica</a>
+        </p>
+        <a href="https://github.com/rafael12pdv/ProjetoAppGame"
+          target="_blank" style="color:rgba(5, 64, 190, 0.747);"> Repositório &rarr;</a>
+      </li>
+
+      <li class="projects__item">
+        <div class="image-container" >
+          <img src="assets/pingpong.png" alt="PING PONG" />
+        </div>
+        <h3>PING PONG</h3>
+        <p>
+          Esse é um projeto básico desenvolvido pelo canvas no HTML. É um jogo que manipula a posição de elementos na tela em tempo real.
+        </p>
+        <a href="https://github.com/MayconSilvaMG/ping_pong"
+          target="_blank" style="color:rgba(5, 64, 190, 0.747);"> Repositório &rarr;</a>
+      </li>
+      
+      <li class="projects__item">
+        <div class="image-container">
+          <img src="assets/sh.jpg" alt="Sistema hoteleiro" />
+        </div>
+        <h3>Sistema hoteleiro</h3>
+        <p>
+          Controle Hoteleiro com C# com Mysql
+        </p>
+        <a href="https://github.com/MayconSilvaMG/sistema-hoteleiro"
+          target="_blank" style="color:rgba(5, 64, 190, 0.747);"> Repositório &rarr;</a>
+      </li>
+
+      <li class="projects__item">
+        <div class="image-container">
+          <img src="assets/geradorsenha.png" alt="PING PONG" />
+        </div>
+        <h3>GERADOR DE SENHAS</h3>
+        <p>
+          Nesse projeto de Gerador de Senhas foi feito manipulação de HTML e CSS com DOM utilizando Javascript, além de funções desenvolvidas para edição desses elementos, com estruturas de decisão e repetição.
+        </p>
+        <a href="https://github.com/MayconSilvaMG/gerador-senha"
+          target="_blank" style="color:rgba(5, 64, 190, 0.747);"> Repositório &rarr;</a>
+      </li>
+
+      <li class="projects__item">
+        <a href="https://github.com/MayconSilvaMG"
+          target="_blank" style="color:rgba(5, 64, 190, 0.747);"> Veja meu repositório e dê uma olhada em mais projetos</a>     
+      </li>
+      
+    </ul>
+  </div>
+  </section>
+
+  <!-- Bootcamps -->
+  <section id="bootcamps" class="bootcamps">
+    <div class="bootcamps__content max-width">
+      <h2 class="tertiary-title">Bootcamps</h2>
+      <p class="description">
+      Bootcamps realizados e em andamento, aqui estão alguns dos
+      mais recentes
+      </p>
+      <ul>
+        <li class="bootcamps__item">
+          <div class="image-container">
+            <img src="assets/impulso.png" alt="impulso"  />
+          </div>
+          <h3>Impulso Fullstack Web Developer</h3>
+          <p>
+            <a href="https://www.dio.me/bootcamp/impulso-fullstack-web-developer"
+            target="_blank" style="color:rgba(5, 64, 190, 0.747);"> Saiba mais &rarr;</a>
+          </p>
+        </li>
+
+        <li class="bootcamps__item">
+          <div class="image-container">
+            <img src="assets/potencial.png" alt="potencial"  />
+          </div>
+          <h3>Pottencial .NET Developer</h3>
+          <p>
+            <a href="https://www.dio.me/bootcamp/pottencial-net-developer"
+            target="_blank" style="color:rgba(5, 64, 190, 0.747);"> Saiba mais &rarr;</a>
+          </p>
+        </li>
+
+        <li class="bootcamps__item">
+          <div class="image-container">
+            <img src="assets/localiza.jpg" alt="localiza"  />
+          </div>
+          <h3>LocalizaLabs .NET Developer #2</h3>
+          <p>
+            <a href="https://www.dio.me/bootcamp/localiza-net-developer-2"
+            target="_blank" style="color:rgba(5, 64, 190, 0.747);"> Saiba mais &rarr;</a>
+          </p>
+        </li>
+
+        <li class="bootcamps__item">
+          <div class="image-container">
+            <img src="assets/eduzz2.png" alt="eduzz2"  />
+          </div>
+          <h3>Eduzz Fullstack Developer #2</h3>
+          <p>
+            <a href="https://www.dio.me/bootcamp/eduzz-fullstack-developer-2"
+            target="_blank" style="color:rgba(5, 64, 190, 0.747);"> Saiba mais &rarr;</a>
+          </p>
+        </li>
+
+        <li class="bootcamps__item">
+          <div class="image-container">
+            <img src="assets/eduzz.png" alt="eduzz"  />
+          </div>
+          <h3>Eduzz Fullstack Developer #3</h3>
+          <p>
+            <a href="https://www.dio.me/bootcamp/eduzz-fullstack-developer-3"
+            target="_blank" style="color:rgba(5, 64, 190, 0.747);"> Saiba mais &rarr;</a>
+          </p>
+        </li>
+
+        <li class="bootcamps__item">
+          <div class="image-container">
+            <img src="assets/start.png" alt="start"  />
+          </div>
+          <h3>GFT Start #4 - Java</h3>
+          <p>
+            <a href="https://www.dio.me/bootcamp/gft-start-4-java"
+            target="_blank" style="color:rgba(5, 64, 190, 0.747);"> Saiba mais &rarr;</a>
+          </p>
+        </li>    
+      </ul>
+    </div>
+    </section>
+
+  <!-- Cursos -->
+  <section id="course" class="course max-width">
+    <div class="course__content">
+      <h2 class="secondary-title">Cursos em Destaque</h2>
+      <p>
+        Dos meus cursos, aqui estão alguns dos
+        meus feitos recentes
+      </p>
+    </div>
+    <ul>
+      <!-- Curso Seja Full-Stack com .NET Web API e Angular + EF Core-->
+      <li>
+        <div class="image">
+          <img src="assets/Seja Full-Stack com .NET Web API e Angular + EF Core.jpg"
+            alt="Seja Full-Stack com .NET Web API e Angular + EF Core" />
+        </div>
+        <div class="course__info">
+          <h3 class="tertiary-title">
+            Curso Seja Full-Stack com .NET Web API e Angular + EF Core
+          </h3>
+          <p>
+            Neste curso, adquiri habilidades avançadas na criação de APIs RESTful com o ASP.NET Core.
+            Aprendi a interagir corretamente com a API, utilizando os métodos HTTP adequados,
+            códigos de status e medidas de segurança. Também adquiri conhecimentos sobre validação,
+            recursos como paginação e filtragem, modelagem de dados, suporte a HATEOAS, versionamento,
+            cache e simultaneidade. Agora estou pronto para criar APIs eficientes e robustas, proporcionando soluções de
+            alta qualidade.
+          </p>
+          <a href="https://www.udemy.com/course/angular-dotnetcore-efcore/learn/lecture/25198378#overview"
+            target="_blank" style="color:rgba(5, 64, 190, 0.747);"> Saiba mais &rarr;</a>
+        </div>
+      </li>
+      <!-- REST API's RESTFul do 0 à Azure com ASP.NET Core 5 e Docker-->
+      <li class="course__reversed-list">
+        <div class="image">
+          <img src="assets/REST API's RESTFul do 0 à Azure com ASP.NET Core 5 e Docker.jpg"
+            alt="REST API's RESTFul do 0 à Azure com ASP.NET Core 5 e Docker" />
+        </div>
+        <div class="course__info">
+          <h3 class="tertiary-title">
+            REST API's RESTFul do 0 à Azure com ASP.NET Core 5 e Docker
+          </h3>
+          <p>
+            O curso abrange os fundamentos teóricos (10%) e práticos (90%) de Webservices API's REST e RESTful.
+            Aprendemos a implementar uma API RESTful utilizando ASP.NET Core 5 e C#,
+            iniciei com uma aplicação simples e progredi para cenários mais complexos.
+            O Curso abordou também tópicos como HTTP, verbos/métodos, tipos de parâmetros, paginação, upload e download
+            de arquivos,
+            versionamento, HATEOAS, Swagger (OpenAPI) e autenticação.
+          </p>
+          <a href="https://www.udemy.com/course/restful-apis-do-0-a-nuvem-com-aspnet-core-e-docker/learn/lecture/10823738?start=0#overview"
+            target="_blank" style="color:rgba(5, 64, 190, 0.747);">Saiba mais &rarr;</a>
+        </div>
+      </li>
+      <!-- Arquitetura de Microsserviços do 0 com ASP.NET, .NET 6 e C# -->
+      <li>
+        <div class="image">
+          <img src="assets/Curso 3.jpg" alt="Arquitetura de Microsserviços do 0 com ASP.NET, .NET 6 e C#" />
+        </div>
+        <div class="course__info">
+          <h3 class="tertiary-title">
+            Arquitetura de Microsserviços do 0 com ASP.NET, .NET 6 e C#
+          </h3>
+          <p>
+            Durante o curso, tive a oportunidade de aprender os fundamentos centrais de uma arquitetura de
+            microsserviços,
+            tanto na teoria (20%) quanto na prática (80%). Apliquei esse conhecimento na implementação de microsserviços
+            usando .NET 6 e C#.
+            Iniciamos com uma rápida revisão dos fundamentos teóricos do REST e, em seguida, nos aprofundamos na
+            construção de API's REST na plataforma .NET.
+          </p>
+          <p>
+            Durante o treinamento, tive a oportunidade de trabalhar com diversas tecnologias, incluindo ASP.NET, .NET 6,
+            Oauth2, OpenID, JWT (JSON Web Tokens), Identity Server, RabbitMQ, API Gateway com Ocelot, Swagger OpenAPI e
+            muito mais.
+            Essas tecnologias foram exploradas de forma prática, permitindo uma imersão completa na implementação de uma
+            arquitetura de microsserviços usando as ferramentas mais recentes e relevantes da plataforma .NET.
+          </p>
+          <a href="https://www.udemy.com/course/microservices-do-0-a-gcp-com-dot-net-6-kubernetes-e-docker/learn/lecture/25442776?start=0#overview"
+            target="_blank" style="color:rgba(5, 64, 190, 0.747);">Saiba mais &rarr;</a>
+        </div>
+      </li>
+      <!-- Jogos 2D com Unity + C# CURSO COMPLETO -->
+      <li class="course__reversed-list">
+        <div class="image">
+          <img src="assets/unity.jpg" alt="Jogos 2D com Unity + C# CURSO COMPLETO" />
+        </div>
+        <div class="course__info">
+          <h3 class="tertiary-title">
+            Jogos 2D com Unity + C# CURSO COMPLETO
+          </h3>
+          <p>
+            Neste curso, aprendi a desenvolver jogos mobile para Android, explorando especialmente os jogos 2D que
+            utilizam efeitos físicos.
+            Fiquei impressionado com a diversidade de jogos disponíveis na Google Play, atendendo a diferentes gostos e
+            faixas etárias.
+          </p>
+          <p>
+            Ao longo do curso, tive a oportunidade de mergulhar no desenvolvimento de jogos passo a passo.
+            Aprendi a manipular a Game Engine, programar jogos utilizando a linguagem C#, e utilizar todos os
+            componentes físicos 2D disponíveis.
+            Também adquiri habilidades na criação de sprites animadas, animações 2D dentro da Unity e até mesmo na
+            mescla de arte 2D com 3D.
+          </p>
+          <a href="https://www.udemy.com/course/desenvolvimento-de-jogos-2d-para-android-com-unity-5/learn/lecture/12667832?start=0#overview"
+            target="_blank" style="color:rgba(5, 64, 190, 0.747);">Saiba mais &rarr;</a>
+        </div>
       </li>
       <!-- Seja Full-Stack com REACT, Router 6, .NET 6 + EF Core -->
       <li>
@@ -262,20 +546,25 @@
             Seja Full-Stack com REACT, Router 6, .NET 6 + EF Core
           </h3>
           <p>
-            Neste curso, tive a oportunidade de aprender a criar uma API RESTful com o ASP.NET Core. Descobri que uma API RESTful é diferente de uma API
+            Neste curso, tive a oportunidade de aprender a criar uma API RESTful com o ASP.NET Core. Descobri que uma
+            API RESTful é diferente de uma API
             da web convencional e aprendi sobre os principais tópicos envolvidos.
           </p>
           <p>
-            Ao longo do curso, concentrei-me em aprender a interagir corretamente com minha API, utilizando os métodos HTTP adequados, 
-            códigos de status e medidas de segurança. Também aprofundei meus conhecimentos em validação, 
+            Ao longo do curso, concentrei-me em aprender a interagir corretamente com minha API, utilizando os métodos
+            HTTP adequados,
+            códigos de status e medidas de segurança. Também aprofundei meus conhecimentos em validação,
             modelagem de dados e suporte a HATEOAS e versionamento.
           </p>
           <p>
-            Um aspecto interessante do curso foi a oportunidade de trabalhar com uma aplicação ASP.NET Core de várias camadas no Visual Studio Code. 
+            Um aspecto interessante do curso foi a oportunidade de trabalhar com uma aplicação ASP.NET Core de várias
+            camadas no Visual Studio Code.
             Aprendi a estruturar minha aplicação de forma modular, permitindo uma melhor organização
-             e manutenção do código. Além disso, explorei o uso do Entity Framework Core para trabalhar com o banco de dados em cada uma dessas camadas.
+            e manutenção do código. Além disso, explorei o uso do Entity Framework Core para trabalhar com o banco de
+            dados em cada uma dessas camadas.
           </p>
-          <a href="https://www.udemy.com/course/seja-full-stack-com-react-redux-e-aspnetcore-efcore/learn/lecture/27747286?start=0#overview" target="_blank" style="color:rgba(5, 64, 190, 0.747);">Saiba mais &rarr;</a>
+          <a href="https://www.udemy.com/course/seja-full-stack-com-react-redux-e-aspnetcore-efcore/learn/lecture/27747286?start=0#overview"
+            target="_blank" style="color:rgba(5, 64, 190, 0.747);">Saiba mais &rarr;</a>
         </div>
       </li>
       <!-- O curso completo de Banco de Dados e SQL, sem mistérios! -->
@@ -288,196 +577,149 @@
             O curso completo de Banco de Dados e SQL, sem mistérios!
           </h3>
           <p>
-            No curso, adquiri habilidades em três bancos de dados (MySQL, SQL Server e Oracle) e familiarizei-me 
+            No curso, adquiri habilidades em três bancos de dados (MySQL, SQL Server e Oracle) e familiarizei-me
             com as linguagens T-SQL e PLSQL. Aprendi sobre a infraestrutura e instalação desses bancos de dados.
           </p>
           <p>
-            Compreendi as diferenças entre os ambientes OLTP e OLAP, assim como a importância das regras de negócio. 
+            Compreendi as diferenças entre os ambientes OLTP e OLAP, assim como a importância das regras de negócio.
             Também fui introduzido ao conceito de Datawarehouse, fundamental no campo de Business Intelligence.
           </p>
-          <a href="https://www.udemy.com/course/bancos-de-dados-relacionais-basico-avancado/learn/lecture/6428412?start=0#overview" target="_blank" style="color:rgba(5, 64, 190, 0.747);">Saiba mais &rarr;</a>
+          <a href="https://www.udemy.com/course/bancos-de-dados-relacionais-basico-avancado/learn/lecture/6428412?start=0#overview"
+            target="_blank" style="color:rgba(5, 64, 190, 0.747);">Saiba mais &rarr;</a>
         </div>
-    </li>
-    <!-- Aprenda a Criar um Jogo FPS Retrô na Unity e C#! -->
-    <li class="course__reversed-list">
-      <div class="image">
-        <img src="assets/Aprenda a Criar um Jogo FPS Retrô na Unity.jpg" alt="Aprenda a Criar um Jogo FPS Retrô na Unity e C#!" />
-      </div>
-      <div class="course__info">
-        <h3 class="tertiary-title">
-          Aprenda a Criar um Jogo FPS Retrô na Unity e C#!
-        </h3>
-        <p>
-          <span>O que aprendi:</span><br>
-          <span>• Desenvolver Jogos na Unity 2021 (mas também se aplica a outras versões).</span><br>
-          <span>• Programar em C#.</span><br>
-          <span>• Scripts, Variáveis e Métodos.</span><br>
-          <span>• Criar uma Inteligência Artificial para o Inimigo.</span><br>
-          <span>• Criar e Configurar Itens coletáveis.</span><br>
-          <span>• Programar um Sistema de Vida.</span><br>
-          <span>• Montar Fases 3D com técnicas 2D.</span><br>
-          <span>• Como funciona o Sistema de Colisão da Unity.</span><br>
-          <span>• Como usar um Raycast.</span><br>
-          <span>• Animar um gameObject e alternar entre suas animações.</span><br>
-          <span>• Adicionar Músicas e Efeitos Sonoros.</span><br>
-          <span>• Mexer com a Interface de Usuário da Unity (UI).</span><br>
-          <span>• Criar Menu Principal.</span><br>
-          <span>• Pausar e Sair do Jogo.</span>
-        </p>
-        <a href="https://www.udemy.com/course/aprenda-a-criar-um-jogo-fps-retro-na-unity-e-c/learn/lecture/28161784?start=0#overview" target="_blank" style="color:rgba(5, 64, 190, 0.747);">Saiba mais &rarr;</a>
-      </div>
-  </li>
-  <!-- Curso Gratuito e Rápido de HTML e os Fundamentos da WWW udemy -->
-  <li>
-    <div class="image">
-      <img src="assets/curso html.jpg" alt="Curso Gratuito e Rápido de HTML e os Fundamentos da WWW udemy" />
-    </div>
-    <div class="course__info">
-      <h3 class="tertiary-title">
-        Curso Gratuito e Rápido de HTML e os Fundamentos da WWW udemy
-      </h3>
-      <p>
-        <span>O que aprendi:</span><br>
-        <span>• Compreender os conceitos da linguagem de marcação HTML.</span><br>
-        <span>• Compreender como organizar seu conteúdo HTML usando corretamente 
-          as estruturas semânticas da linguagem.</span><br>
-        <span>• Compreender a importância da boa estruturação de páginas HTML para auxiliar 
-          na indexação por parte das ferramentas de busca como Google e Bing.</span><br>
+      </li>
+      <!-- Aprenda a Criar um Jogo FPS Retrô na Unity e C#! -->
+      <li class="course__reversed-list">
+        <div class="image">
+          <img src="assets/Aprenda a Criar um Jogo FPS Retrô na Unity.jpg"
+            alt="Aprenda a Criar um Jogo FPS Retrô na Unity e C#!" />
+        </div>
+        <div class="course__info">
+          <h3 class="tertiary-title">
+            Aprenda a Criar um Jogo FPS Retrô na Unity e C#!
+          </h3>
+          <p>
+            <span>O que aprendi:</span><br>
+            <span>• Desenvolver Jogos na Unity 2021 (mas também se aplica a outras versões).</span><br>
+            <span>• Programar em C#.</span><br>
+            <span>• Scripts, Variáveis e Métodos.</span><br>
+            <span>• Criar uma Inteligência Artificial para o Inimigo.</span><br>
+            <span>• Criar e Configurar Itens coletáveis.</span><br>
+            <span>• Programar um Sistema de Vida.</span><br>
+            <span>• Montar Fases 3D com técnicas 2D.</span><br>
+            <span>• Como funciona o Sistema de Colisão da Unity.</span><br>
+            <span>• Como usar um Raycast.</span><br>
+            <span>• Animar um gameObject e alternar entre suas animações.</span><br>
+            <span>• Adicionar Músicas e Efeitos Sonoros.</span><br>
+            <span>• Mexer com a Interface de Usuário da Unity (UI).</span><br>
+            <span>• Criar Menu Principal.</span><br>
+            <span>• Pausar e Sair do Jogo.</span>
+          </p>
+          <a href="https://www.udemy.com/course/aprenda-a-criar-um-jogo-fps-retro-na-unity-e-c/learn/lecture/28161784?start=0#overview"
+            target="_blank" style="color:rgba(5, 64, 190, 0.747);">Saiba mais &rarr;</a>
+        </div>
+      </li>
+      <!-- Curso Gratuito e Rápido de HTML e os Fundamentos da WWW udemy -->
+      <li>
+        <div class="image">
+          <img src="assets/curso html.jpg" alt="Curso Gratuito e Rápido de HTML e os Fundamentos da WWW udemy" />
+        </div>
+        <div class="course__info">
+          <h3 class="tertiary-title">
+            Curso Gratuito e Rápido de HTML e os Fundamentos da WWW udemy
+          </h3>
+          <p>
+            <span>O que aprendi:</span><br>
+            <span>• Compreender os conceitos da linguagem de marcação HTML.</span><br>
+            <span>• Compreender como organizar seu conteúdo HTML usando corretamente
+              as estruturas semânticas da linguagem.</span><br>
+            <span>• Compreender a importância da boa estruturação de páginas HTML para auxiliar
+              na indexação por parte das ferramentas de busca como Google e Bing.</span><br>
+          </p>
+          <a href="https://www.udemy.com/course/curso-gratuito-de-html/learn/lecture/21814174?start=0#overview"
+            target="_blank" style="color:rgba(5, 64, 190, 0.747);">Saiba mais &rarr;</a>
+        </div>
+      </li>
+      <!-- Fundamentos de JavaScript Funcional   -->
+      <li class="course__reversed-list">
+        <div class="image">
+          <img src="assets/Fundamentos de JavaScript Funcional.jpg" alt="Fundamentos de JavaScript Funcional  " />
+        </div>
+        <div class="course__info">
+          <h3 class="tertiary-title">
+            Fundamentos de JavaScript Funcional
+          </h3>
+          <p>
+            <span>O que aprendi:</span><br>
+            <span>• Anatomia da Função.</span><br>
+            <span>• Funções e Parâmetros.</span><br>
+            <span>• Introdução a Programação Funcional.</span><br>
+            <span>• Map, Reducer e Filter.</span><br>
+          </p>
+          <a href="https://www.udemy.com/course/fundamentos-de-javascript-funcional/learn/lecture/21308908?start=0#overview"
+            target="_blank" style="color:rgba(5, 64, 190, 0.747);">Saiba mais &rarr;</a>
+        </div>
+      </li>
+      <!-- Java 2022 COMPLETO: Do Zero ao Profissional + Projetos! -->
+      <li>
+        <div class="image">
+          <img src="assets/java.jpg" alt="Java 2022 COMPLETO: Do Zero ao Profissional + Projetos!" />
+        </div>
+        <div class="course__info">
+          <h3 class="tertiary-title">
+            Java 2022 COMPLETO: Do Zero ao Profissional + Projetos!
+          </h3>
+          <p>
+            <span>O que aprendi:</span><br>
+            <span>• Conhecer a linguagem Java do zero ao avançado.</span><br>
+            <span>• Fundamentos de programação sólidos.</span><br>
+            <span>• Orientação a Objetos e os seus princípios.</span><br>
+            <span>• Banco de Dados e Frameworks de persistência como JPA.</span><br>
+            <span>• Programação Funcional com Java.</span><br>
+            <span>• Desenvolver WebService com Spring Boot e Banco de Dados.</span><br>
+            <span>• Java Desktop: Swing e JavaFX.</span><br>
+            <span>• Desenvolver projetos reais.</span>
+          </p>
+          <a href="https://www.udemy.com/course/fundamentos-de-programacao-com-java/learn/lecture/5740792?start=0#overview "
+            target="_blank" style="color:rgba(5, 64, 190, 0.747);">Saiba mais &rarr;</a>
+        </div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="footer__content max-width mb-0">
+      <h2 class="tertiary-title mb-s">Vamos conversar?</h2>
+      <p class="mb-m">
+        Ficarei feliz em saber mais sobre seus projetos e como podemos
+        trabalhar juntos.
       </p>
-      <a href="https://www.udemy.com/course/curso-gratuito-de-html/learn/lecture/21814174?start=0#overview" target="_blank" style="color:rgba(5, 64, 190, 0.747);">Saiba mais &rarr;</a>
-    </div>
-  </li>
-<!-- Fundamentos de JavaScript Funcional   -->
-<li class="course__reversed-list">
-  <div class="image">
-    <img src="assets/Fundamentos de JavaScript Funcional.jpg" alt="Fundamentos de JavaScript Funcional  " />
-  </div>
-  <div class="course__info">
-    <h3 class="tertiary-title">
-      Fundamentos de JavaScript Funcional  
-    </h3>
-    <p>
-      <span>O que aprendi:</span><br>
-      <span>• Anatomia da Função.</span><br>
-      <span>• Funções e Parâmetros.</span><br>
-      <span>• Introdução a Programação Funcional.</span><br>
-      <span>• Map, Reducer e Filter.</span><br>
-    </p>
-    <a href="https://www.udemy.com/course/fundamentos-de-javascript-funcional/learn/lecture/21308908?start=0#overview" target="_blank" style="color:rgba(5, 64, 190, 0.747);">Saiba mais &rarr;</a>
-  </div>
-</li>
-<!-- Java 2022 COMPLETO: Do Zero ao Profissional + Projetos! -->
-<li>
-  <div class="image">
-    <img src="assets/java.jpg" alt="Java 2022 COMPLETO: Do Zero ao Profissional + Projetos!" />
-  </div>
-  <div class="course__info">
-    <h3 class="tertiary-title">
-      Java 2022 COMPLETO: Do Zero ao Profissional + Projetos!
-    </h3>
-    <p>
-      <span>O que aprendi:</span><br>
-      <span>• Conhecer a linguagem Java do zero ao avançado.</span><br>
-      <span>• Fundamentos de programação sólidos.</span><br>
-      <span>• Orientação a Objetos e os seus princípios.</span><br>
-      <span>• Banco de Dados e Frameworks de persistência como JPA.</span><br>
-      <span>• Programação Funcional com Java.</span><br>
-      <span>• Desenvolver WebService com Spring Boot e Banco de Dados.</span><br>
-      <span>• Java Desktop: Swing e JavaFX.</span><br>
-      <span>• Desenvolver projetos reais.</span>
-    </p>
-    <a href="https://www.udemy.com/course/fundamentos-de-programacao-com-java/learn/lecture/5740792?start=0#overview " target="_blank" style="color:rgba(5, 64, 190, 0.747);">Saiba mais &rarr;</a>
-  </div>
-</li>
-      </ul>
-    </section>
-    <!-- projetos -->
-    <section id="projects" class="projects max-width">
-      <div class="projects__content">
-        <h2 class="secondary-title">Projetos e Cursos em Destaque</h2>
-        <p>
-          De ideias abstratas a projetos bem-sucedidos e até mesmo cursos, aqui estão alguns dos
-          meus trabalhos mais recentes
-        </p>
+      <div class="footer__contact mb-m">
+        <span class="mb-m">mds.brMG@hotmail.com</span>
+        <span>+55 (35)99185-5332</span>
       </div>
       <ul>
         <li>
-          <div class="image">
-            <img src="assets/task-manager.png" alt="Gerenciamento de tarefas" />
-          </div>
-          <div class="projects__info">
-            <h3 class="tertiary-title">
-              Sistema de gerenciamento de tarefas DEF
-            </h3>
-            <p>
-              Sistema web desenvolvido para a empresa DEF, com funcionalidades
-              como cadastro de tarefas, atribuição de responsáveis e
-              acompanhamento do status das atividades.
-            </p>
-            <a href="#">Leia mais &rarr;</a>
-          </div>
-        </li>
-        <li class="projects__reversed-list">
-          <div class="image">
-            <img src="assets/ecommerce.png" alt="ecommerce" />
-          </div>
-          <div class="projects__info">
-            <h3 class="tertiary-title">
-              Desenvolvimento de Loja Virtual MeuSofazim.com
-            </h3>
-            <p>
-              TESTE DE GIT
-            </p>
-            <a href="assets/Maycon Daniel da Silva TI.pdf">Leia mais &rarr;</a>
-          </div>
+          <a href="https://www.instagram.com/maycao.m/" target="_blank"><img src="assets/instagram.svg"
+              alt="Instagram" /></a>
         </li>
         <li>
-          <div class="image">
-            <img src="assets/delivery.png" alt="delivery" />
-          </div>
-          <div class="projects__info">
-            <h3 class="tertiary-title">
-              App de delivery e Dashboard DeliveryJá!
-            </h3>
-            <p>
-              Aplicativo mobile desenvolvido para a empresa DeliveryJá!,
-              permitindo a realização de pedidos e acompanhamento em tempo real
-              do status da entrega.
-            </p>
-            <a href="#">Leia mais &rarr;</a>
-          </div>
+          <a href="https://www.linkedin.com/in/maycon-daniel-da-silva-4a1421213/" target="_blank"><img
+              src="assets/linkedin.svg" alt="Linkedin" /></a>
+        </li>
+        <li>
+          <a href="https://api.whatsapp.com/send?phone=5535991855332" target="_blank"><img src="assets/WhatsApp.png"
+              alt="WhatsApp" /></a>
         </li>
       </ul>
-    </section>
-    <!-- Footer -->
-    <footer id="footer">
-      <div class="footer__content max-width mb-0">
-        <h2 class="tertiary-title mb-s">Vamos conversar?</h2>
-        <p class="mb-m">
-          Ficarei feliz em saber mais sobre seus projetos e como podemos
-          trabalhar juntos para torná-los realidade.
-        </p>
-        <div class="footer__contact mb-m">
-          <span class="mb-m">mds.brMG@hotmail.com</span>
-          <span>+55 (35)99185-5332</span>
-        </div>
-        <ul>
-          <li>
-            <a href="https://www.instagram.com/maycao.m/" target="_blank"><img src="assets/instagram.svg" alt="Instagram" /></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/maycon-daniel-da-silva-4a1421213/" target="_blank"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
-          </li>
-          <li>
-            <a href="https://api.whatsapp.com/send?phone=5535991855332" target="_blank"><img src="assets/WhatsApp.png" alt="WhatsApp" /></a>
-          </li>
-        </ul>
-        <p class="footer__copyright">
-          © 2023 Maycon Daniel da Silva. Todos os direitos reservados.
-        </p>
-      </div>
-    </footer>
-    <!-- script -->
-    <script src="scripts/index.js"></script>
-  </body>
+      <p class="footer__copyright">
+        © 2023 Maycon Daniel da Silva. Todos os direitos reservados.
+      </p>
+    </div>
+  </footer>
+  <!-- script -->
+  <script src="scripts/index.js"></script>
+</body>
+
 </html>
